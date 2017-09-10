@@ -28,19 +28,23 @@
                 android:layout_width="25dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginEnd="15dp"
-                android:src="@drawable/cart"/>
+                android:src="@drawable/cart"
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:layout_height="25dp"
                 android:layout_width="25dp"
-                android:src="@drawable/notifications"/>
+                android:src="@drawable/notifications"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_marginLeft="60dp"
                 android:layout_marginStart="60dp"
-                android:src="@drawable/logo"/>
+                android:src="@drawable/logo"
+                tools:ignore="ContentDescription" />
 
         </android.support.v7.widget.Toolbar>
 
